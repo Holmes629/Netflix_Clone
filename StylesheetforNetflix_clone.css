@@ -1,0 +1,293 @@
+body {
+    line-height: 1.2;
+    font-family: serif, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #000000;
+}
+.row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.col-1 {width: 8.33%}
+.col-2 {width:16.66%}
+.col-3 {width:25%}
+.col-4 {width:33.33%}
+.col-5 {width:41.66%}
+.col-6 {width:50%}
+.col-7 {width:58.33%}
+.col-8 {width:66.66%}
+.col-9 {width:75%}
+.col-10 {width:83.33%}
+.col-11 {width:91.66%}
+.col-12 {width:100%}
+/*##### Section #####*/
+.Section {
+    width: 100%;
+    height: 100vh;
+    background: url(Images/Sec2-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: 0 0 0 1px rgba(0,0,0,.15) ;
+}
+.Section::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.6);
+  box-shadow: inset 120px 100px 250px #000, inset -120px -100px 250px #000;
+}
+
+a {
+    text-decoration: none;
+    color: #B9B4B4;
+}
+hr{
+    color: #fff;
+}
+/*##### Section-1 (Header) #####*/
+.Section-1 {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  z-index: 2;
+}
+.Section-1 {
+    padding-top: 10px; 
+}
+.Section-1 .row .col-9 img {
+    padding-left: 60%;
+    height: 75px;
+    width: 275px;
+}
+.Section-1 .row .col-3 .Button1 {
+    padding-left: 55%;
+}
+.Section-1 .row .col-3 .Button1 a{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.Section-1 .row .col-3 button {
+    background-color: #CF1E1B;
+    font-size: 15px;
+    border-radius: 7px;
+    margin: 1px;
+    padding: 5px 20px;
+}
+
+/*### Section-2 ###*/
+.Section-2 {
+  position: relative;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 2;
+}
+.Section-2 {
+    text-align: center;
+    font-size: 32px;
+    color: #FFFFFF;
+    padding: 15% 0px 15%;
+    z-index: 2;
+}
+.Section-2 a {
+    text-decoration: none;
+    color: #fff;
+    transform: translate(-50%,-50%);
+}
+.Section-2 h1 {
+    color: #FFFFFF;
+    margin: 0;
+    font-size: 65px;
+}
+.Section-2 .Button2 button {
+    background-color: #CF1E1B; 
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 20px 20px;
+    border-radius: 3px;
+}
+
+/*### Section-3 ###*/
+
+.Section-3 .row .col-4 {
+    color: #B9B4B4;
+    line-height: 50px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.Section-3 .row .col-4 a i{
+    padding-bottom: 3px;
+}
+.Section-3 .row .col-4 a{
+    justify-content: center;
+    padding-top: 60px;
+    font-size: 30px;
+    padding: 30px;
+}
+.Section-3 .row .col-4 p {
+    font-size: 23px;
+    color: #fff;
+}
+.Section-3 .row .col-4 {
+    text-align: center;
+}
+.Section-3 .row .col-4 :hover{
+    color: #fff;
+}
+
+/*### Section-4 ###*/
+.Section-4 {
+    display: none;
+}
+.Section-4onclickSec4 .row .col-6 p {
+    color: #fff;
+    font-size: 32px;
+}
+.Section-4onclickSec4 .row .col-6 .inner4  {
+    padding-left: 250px;
+}
+.Section-4onclickSec4 .row .col-6 button a {
+    text-decoration: none;
+    color: #fff;
+}
+.Section-4onclickSec4 .row .col-6 button {
+    background-color: #CF1E1B;
+    color: #fff;
+    font-size: 32px;
+    padding: 20px;
+    border-radius: 3px;
+}
+.Section-4onclickSec4 .row .col-6 img {
+    height: 300px;
+    height: 400px;
+}
+
+/*### Section-5 ###*/
+.Section-5{
+    display: none;
+}
+.Section-5onclickSec5 {
+    font-size: 32px;
+    color: #fff;
+}
+.Section-5onclickSec5 .container-5 {
+    padding: 0% 10%;
+}
+.Section-5onclickSec5 .row .col-4 button a {
+    text-decoration: none;
+    color: #fff;
+}
+.Section-5onclickSec5 .row .col-4 button {
+    color: #fff;
+    font-size: 32px;
+    background-color: #CF1E1B;
+    padding: 15px 30px;
+    border-radius: 3px;
+}
+.Section-5onclickSec5 .row .col-4 img {
+    height: 250px;
+    width: 350px;
+}
+.Section-5onclickSec5 p {
+    color: #fff;
+    font-size: 32px;
+}
+.Section-5onclickSec5 .col-4 p {
+    color: #fff;
+    font-size: 26px;
+}
+
+/*### Section-6 ###*/
+.Section-6 {
+    display: none;
+}
+.Section-6onclickSec6 {
+    color: #B9B4B4;
+}
+.Section-6onclickSec6 .Button5 {
+    display: block;
+    margin: auto;
+}
+.Section-6onclickSec6 p{
+    color: #fff;
+    font-size: 26px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.Section-6onclickSec6 button a {
+    text-decoration: none;
+    color: #fff;
+}
+.Section-6onclickSec6 button {
+    background-color: #CF1E1B; 
+    font-size: 26px;
+    padding: 10px 20px;
+}
+.Section-6onclickSec6 table{
+    padding-left: 15%;
+}
+
+/*### Section-7 ###*/
+
+.Section-7 {
+    color: #B9B4B4;
+    line-height: 25px;
+    padding-top: 3%;
+    padding-bottom: 10px;
+}
+.Section-7 ul{
+    margin: 0;
+    padding: 0;
+}
+.Section-7 ul li{
+    list-style: none;
+}
+.Section-7 .container-7{
+    padding: 0% 10%;
+}
+.Section-7 p {
+    margin: 0;
+    padding: 0;
+}
+
+/*### Onclick functions ###*/
+.Section-3 .row .col-4.firstClick1,
+.Section-3 .row .col-4.firstClick2,
+.Section-3 .row .col-4.firstClick3
+{
+    border-bottom: 7px solid #CF1E1B;
+}
+.Section-4onclickSec4 {
+    display: block;
+}
+.Section-5onclickSec5 {
+    display: block;
+}
+.Section-6onclickSec6 {
+    display: block;
+}
+
+/*##### Mobile View #####*/
+
+@media screen and (max-width: 1026px){
+    /*### Section-1 ###  */
+    div.Section-1 .row .col-9 img {
+        padding-left: 32px;
+    }
+    .Section-1 .row .col-3 .Button1{
+        padding-left: 1px;
+        padding-right: 1px;
+    }
+}
+    
